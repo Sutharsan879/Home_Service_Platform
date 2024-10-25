@@ -1,0 +1,98 @@
+.service-provider-dashboard {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #f9f9f9; 
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: #495057;
+}
+
+.service-provider-dashboard .main-content {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+  padding: 20px;
+  margin: 20px 0;
+  width: 60%;
+}
+
+.service-provider-dashboard .main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service-provider-dashboard h2 {
+  color: #343a40;
+}
+
+.service-provider-dashboard .navbar {
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+.service-provider-dashboard .navbar ul {
+  list-style-type: none; 
+  padding: 0;
+  display: flex;
+  justify-content: space-around; 
+}
+
+.service-provider-dashboard .navbar li {
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.service-provider-dashboard .navbar li:hover {
+  background-color:chocolate; 
+  color: #ffffff; 
+}
+
+.service-provider-dashboard .requests-section, .reply-section, .payment-section {
+  margin-top: 20px;
+}
+
+.service-provider-dashboard .request-item, .payment-item {
+  border: 1px solid #dee2e6; 
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #f8f9fa; 
+}
+
+.service-provider-dashboard .reply-box {
+  width: 97%;
+  height: 100px;
+  padding: 10px;
+  border: 1px solid #ced4da; 
+  border-radius: 5px;
+  resize: none; 
+}
+
+.service-provider-dashboard .send-btn {
+  background-color: #007bff; 
+  color: #ffffff; 
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.service-provider-dashboard .send-btn:hover {
+  background-color: #0056b3; 
+}
+
+.service-provider-dashboard p {
+  color: #495057; 
+}
+
+.service-provider-dashboard hr {
+  margin: 10px 0;
+  border: 0;
+  border-top: 1px solid #e9ecef; 
+}
